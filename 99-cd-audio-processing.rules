@@ -1,0 +1,1 @@
+SUBSYSTEM=="block", KERNEL=="sr0", ACTION=="change", RUN+="/home/pi/audio/start-cd.sh &"
